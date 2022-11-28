@@ -1,0 +1,21 @@
+.example-container {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  
+  mat-drawer-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #eee;
+  }
+  
+  .dark {
+    background: rgb(86, 82, 82);
+    color: white;
+  }

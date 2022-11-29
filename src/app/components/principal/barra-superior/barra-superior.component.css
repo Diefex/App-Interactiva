@@ -1,8 +1,12 @@
 .example-spacer {
-    flex: 1 1 auto;
+  display: flex;
+  width: 70%;
+  justify-content: end;
+  padding-right: 10px;
   }
   
   .pdi-color {
     background-color: #E17A35;
     color: white;
   }
+

@@ -3,6 +3,7 @@
     height: 90%;
     width: 50px;
     background-color:#616161;
+    transition-duration: .5s;
 }
 .espacio{
     display: block;
@@ -13,6 +14,7 @@
     display: inline-block;
     width:35px;
     height:35px;
+    transition-duration: .5s;
 }
 
 .opcion{
@@ -23,6 +25,39 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    
+}
+.icono img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.palabra{
+    display:block;
+    overflow: hidden;
+    width: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    transition-duration: .5s;
+}
+
+.nav_lat:hover{
+    width: 150px;
+    transition-duration: .5s;
+}
+
+.nav_lat:hover .palabra{
+    width: 70%;
+    transition-duration: .5s;
+    padding-left: 10px;
+}
+
+.nav_lat:hover .icono{
+    margin-left: 10px;
+    width:30px;
+    height:30px;
 }
 
 .opcion:hover{
@@ -30,10 +65,6 @@
     transition-duration: .5s;
 }
 
-.icono img{
-    object-fit: cover;
-    width:100%;
-    height:100%;
-}
+
 
 

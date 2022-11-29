@@ -21,3 +21,10 @@
     background: rgb(86, 82, 82);
     color: white;
   }
+
+  .contenido{
+    display: block;
+    height: 2000px;
+    width: 500px;
+    background-color: black;
+  }

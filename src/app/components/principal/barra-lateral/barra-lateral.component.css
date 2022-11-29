@@ -1,13 +1,27 @@
 .nav_lat{
     display: flexbox;
-    height: 90%;
     width: 50px;
     background-color:#616161;
     transition-duration: .5s;
+    position: fixed;
+    top: 64px;
 }
 .espacio{
     display: block;
     height: 30px;
+}
+.espacio2{
+    display: block;
+    height: 110px;
+}
+
+.espacio3{
+    display: block;
+    height: 30px;
+}
+.espacio4{
+    display: block;
+    height: 110px;
 }
 
 .icono{
@@ -45,6 +59,8 @@
 
 .nav_lat:hover{
     width: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition-duration: .5s;
 }
 
@@ -64,7 +80,56 @@
     background-color: #333333;
     transition-duration: .5s;
 }
+.despliege{
+    position: absolute;
+    top: 0px;
+    background-color:#E17A35;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 50px; 
+    overflow: hidden;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+}
 
 
 
+.nav_desp{
+    display: flexbox;
+    width: 0px;
+    background-color:#616161;
+    transition-duration: .5s;
+    position: absolute;
+
+}
+
+.nav_desp .palabra{
+    width: 70%;
+    transition-duration: .5s;
+    padding-left: 10px;
+}
+
+.nav_desp .icono{
+    margin-left: 10px;
+    width:30px;
+    height:30px;
+}
+
+
+
+@media 
+(max-width: 600px) {
+    .nav_lat {
+      width: 0px;
+    }
+    .despliege{
+        width: 50px;
+        height: 55px; 
+    }
+    .despliege:hover{
+        background-color: #333333;
+    }
+}
 

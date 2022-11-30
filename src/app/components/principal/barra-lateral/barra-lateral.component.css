@@ -1,3 +1,5 @@
+/*Barra lateral no responsiva*/
+
 .nav_lat{
     display: flexbox;
     width: 50px;
@@ -11,15 +13,6 @@
     height: 30px;
 }
 .espacio2{
-    display: block;
-    height: 110px;
-}
-
-.espacio3{
-    display: block;
-    height: 30px;
-}
-.espacio4{
     display: block;
     height: 110px;
 }
@@ -80,6 +73,12 @@
     background-color: #333333;
     transition-duration: .5s;
 }
+
+
+
+
+
+/*Barra lateral responsiva*/
 .despliege{
     position: absolute;
     top: 0px;
@@ -93,8 +92,6 @@
     border-radius: 5px;
     border-top-left-radius: 0px;
 }
-
-
 
 .nav_desp{
     display: flexbox;
@@ -118,7 +115,7 @@
 }
 
 
-
+/*configuracion responsiva*/
 @media 
 (max-width: 600px) {
     .nav_lat {

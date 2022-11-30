@@ -1,7 +1,7 @@
 .contenedor{
     display: block;
-    width: 900px;
+    width: 80%;
     height: 500px;
     background-color: aqua;
-    margin-left: 50px;
+    
 }

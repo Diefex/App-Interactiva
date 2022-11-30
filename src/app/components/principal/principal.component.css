@@ -22,9 +22,10 @@
     color: white;
   }
 
-  .contenido{
-    display: block;
-    height: 2000px;
-    width: 500px;
-    background-color: black;
-  }
+
+/*Organizacion del contenido*/
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}

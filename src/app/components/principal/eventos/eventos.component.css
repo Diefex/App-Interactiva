@@ -1,0 +1,15 @@
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    background-color: #9F9F9F;
+    margin: 5%;
+}
+
+h3{
+    color: #333333;
+    font-size: 18px;
+}
+  

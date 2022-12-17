@@ -44,8 +44,6 @@
     display:block;
     overflow: hidden;
     width: 0px;
-    font-family: 'Inter';
-    font-style: normal;
     color: rgb(255, 255, 255);
     transition-duration: .5s;
 }

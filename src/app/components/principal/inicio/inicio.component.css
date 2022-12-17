@@ -1,0 +1,22 @@
+/*Organizacion del contenido*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+    width: 95.9%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .info_basica{
+    grid-column: 1 / 4;
+  }
+  
+  
+  /*configuracion responsiva*/
+  @media 
+  (max-width: 600px) {
+    .contenedor{
+      margin-left: 0px;
+    }
+  }
+  

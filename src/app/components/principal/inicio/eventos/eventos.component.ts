@@ -1,7 +1,7 @@
 import { getLocaleDateFormat } from '@angular/common';
 import { Component } from '@angular/core';
 
-import data from '../../../../data/eventos.json';
+import data from '../../../../../data/eventos.json';
 
 
 @Component({

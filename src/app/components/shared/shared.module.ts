@@ -13,6 +13,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatSelectModule,
     MatDividerModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   exports: [
     CommonModule,
@@ -43,7 +45,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatSelectModule,
     MatDividerModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ]
 })
 export class SharedModule { }

@@ -8,7 +8,7 @@ export class EventosService {
 
   constructor() { }
 
-  getNombre():Array<Object>{
-    return Object.values(data);
+  getData():any{
+    return data;
   }
 }

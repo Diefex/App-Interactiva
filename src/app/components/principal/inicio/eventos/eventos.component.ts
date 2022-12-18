@@ -1,8 +1,6 @@
 import { getLocaleDateFormat } from '@angular/common';
 import { Component } from '@angular/core';
-import { EventosService } from 'src/app/eventos.service';
-
-import data from '../../../../../data/eventos.json';
+import { EventosService } from '../../../../../app/eventos.service';
 
 
 @Component({
@@ -11,18 +9,18 @@ import data from '../../../../../data/eventos.json';
   styleUrls: ['./eventos.component.css']
 })
 export class EventosComponent {
-  data;
-  parentMessage = "mensaje desde eventos";
+
+  data:any;
+
   constructor(private estudianteService: EventosService){
-    this.data=Object.values(data);
   }
-  
-  getNombre(): void {
-    
+
+  getData(): void {
+    this.data=this.estudianteService.getData();
   }
 
   ngOnInit(): void {
-    
+    this.getData();
   }
 
 }

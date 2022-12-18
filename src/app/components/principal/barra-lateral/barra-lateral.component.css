@@ -1,33 +1,27 @@
 /*Barra lateral no responsiva*/
 
-.nav_lat{
-    display: flexbox;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: relative;
-    padding: 10px;
-    margin: 0;
-    
+.nav_lat {
+    width: 100px;
 }
-.espacio{
+
+.espacio {
     display: block;
     height: 30px;
 }
-.espacio2{
+
+.espacio2 {
     display: block;
     height: 110px;
 }
 
-.icono{
+.icono {
     display: inline-block;
-    width:35px;
-    height:35px;
+    width: 35px;
+    height: 35px;
     transition-duration: .5s;
 }
 
-.opcion{
+.opcion {
     display: flex;
     width: 100%;
     height: 50px;
@@ -35,42 +29,43 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    
-}
-.icono img{
-    object-fit: cover;
-    width:100%;
-    height:100%;
+
 }
 
-.palabra{
-    display:block;
+.icono img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.palabra {
+    display: block;
     overflow: hidden;
     width: 0px;
     color: rgb(255, 255, 255);
     transition-duration: .5s;
 }
 
-.nav_lat:hover{
+.nav_lat:hover {
     width: 150px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     transition-duration: .5s;
 }
 
-.nav_lat:hover .palabra{
+.nav_lat:hover .palabra {
     width: 70%;
     transition-duration: .5s;
     padding-left: 10px;
 }
 
-.nav_lat:hover .icono{
+.nav_lat:hover .icono {
     margin-left: 10px;
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
 }
 
-.opcion:hover{
+.opcion:hover {
     background-color: #333333;
     transition-duration: .5s;
 }
@@ -80,50 +75,34 @@
 
 
 /*Barra lateral responsiva*/
-.despliege{
-    background-color:#E17A35;
+.despliege {
+    background-color: #E17A35;
     color: rgb(255, 255, 255);
     border: 0px;
     padding: 0px;
     width: 0px;
-    height: 50px; 
+    height: 50px;
     overflow: hidden;
     border-radius: 5px;
     border-top-left-radius: 0px;
 }
 
-.nav_desp{
-    display: flexbox;
-    width: 0px;
-    background-color:#616161;
-    transition-duration: .5s;
-}
 
-.nav_desp .palabra{
-    width: 70%;
-    transition-duration: .5s;
-    padding-left: 10px;
-}
 
-.nav_desp .icono{
-    margin-left: 10px;
-    width:30px;
-    height:30px;
-}
 
 
 /*configuracion responsiva*/
-@media 
-(max-width: 600px) {
+@media (max-width: 600px) {
     .nav_lat {
-      width: 0px;
+        width: 100px;
     }
-    .despliege{
+
+    .despliege {
         width: 50px;
-        height: 55px; 
+        height: 55px;
     }
-    .despliege:hover{
+
+    .despliege:hover {
         background-color: #333333;
     }
 }
-

@@ -6,14 +6,9 @@ import { Component, Input  } from '@angular/core';
   styleUrls: ['./evento.component.css']
 })
 export class EventoComponent {
-  @Input() nombre!:String;
-  @Input() id!:String;
-  @Input() fecha!:String;
-  @Input() img!:String;
-  @Input() descripcion_corta!:String;
-  @Input() descripcion!:String;
+
+  @Input() data!:any;
 
   constructor(){
-    
   }
 }

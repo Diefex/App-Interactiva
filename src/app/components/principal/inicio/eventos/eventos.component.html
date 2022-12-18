@@ -2,13 +2,6 @@
 
     <h3>Proximos Eventos</h3>
 
-    <app-evento *ngFor="let item of data" 
-    [nombre]="item.nombre" 
-    [id]="item.id" 
-    [fecha]="item.fecha" 
-    [img]="item.img" 
-    [descripcion_corta]="item.descripcion_corta" 
-    [descripcion]="item.descripcion"
-    >
+    <app-evento *ngFor="let item of data" [data]="item">
     </app-evento>
 </div>

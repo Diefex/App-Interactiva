@@ -5,8 +5,9 @@
     width: 50px;
     background-color:#616161;
     transition-duration: .5s;
-    position: fixed;
+    position: absolute;
     top: 64px;
+    bottom: 0px;
 }
 .espacio{
     display: block;
@@ -97,7 +98,8 @@
     background-color:#616161;
     transition-duration: .5s;
     position: absolute;
-
+    top: 55px;
+    bottom: 0px;
 }
 
 .nav_desp .palabra{

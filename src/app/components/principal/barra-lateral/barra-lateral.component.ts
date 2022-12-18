@@ -18,7 +18,6 @@ export class BarraLateralComponent {
 
   menuDesplegar():void{
 
-    console.log(this.nav);
     if(ancho==0){
       ancho=80;
     }else{

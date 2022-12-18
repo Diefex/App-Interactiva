@@ -1,12 +1,21 @@
+.bar-container {
+  height: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.bar-image {
+  height: 100%;
+}
+
 .example-spacer {
   display: flex;
   width: 70%;
-  justify-content: center;
+  justify-content: left;
   padding-right: 10px;
-  }
-  
-  .pdi-color {
-    background-color: #E17A35;
-    color: white;
-  }
+}
 
+.pdi-color {
+  background-color: #E17A35;
+  color: white;
+}

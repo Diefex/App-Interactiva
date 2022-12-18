@@ -1,5 +1,4 @@
 /*Barra lateral no responsiva*/
-
 .nav_lat{
     display: flexbox;
     top: 0;
@@ -9,15 +8,17 @@
     position: relative;
     padding: 10px;
     margin: 0;
-    
+    transition-duration: .5s;
 }
 .espacio{
     display: block;
     height: 30px;
+    transition-duration: .5s;
 }
 .espacio2{
     display: block;
     height: 110px;
+    transition-duration: .5s;
 }
 
 .icono{
@@ -35,6 +36,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    transition-duration: .5s;
     
 }
 .icono img{
@@ -51,11 +53,12 @@
     transition-duration: .5s;
 }
 
+
 .nav_lat:hover{
     width: 150px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    transition-duration: .5s;
+    transition-duration:.5s;
 }
 
 .nav_lat:hover .palabra{
@@ -68,6 +71,7 @@
     margin-left: 10px;
     width:30px;
     height:30px;
+    transition-duration: .5s;
 }
 
 .opcion:hover{

@@ -2,12 +2,14 @@
 
 .nav_lat{
     display: flexbox;
-    width: 50px;
-    background-color:#616161;
-    transition-duration: .5s;
-    position: absolute;
-    top: 64px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    
 }
 .espacio{
     display: block;
@@ -79,8 +81,6 @@
 
 /*Barra lateral responsiva*/
 .despliege{
-    position: absolute;
-    top: 0px;
     background-color:#E17A35;
     color: rgb(255, 255, 255);
     border: 0px;
@@ -97,9 +97,6 @@
     width: 0px;
     background-color:#616161;
     transition-duration: .5s;
-    position: absolute;
-    top: 55px;
-    bottom: 0px;
 }
 
 .nav_desp .palabra{

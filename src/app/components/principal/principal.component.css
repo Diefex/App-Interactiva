@@ -1,9 +1,17 @@
+.navbar-container {
+  height: 10%;
+}
 .sidenav-container {
-  position: absolute;
-  top: 60px;
+  height: 90%;
+  position: relative;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.sidenav {
+  background-color: #616161;
 }
 
 .drawer-container {
@@ -35,6 +43,20 @@
   height: 40px;
 }
 
+.window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .content {
-  margin-left: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  padding: 10px;
+  margin: 0;
 }

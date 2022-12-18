@@ -1,7 +1,9 @@
 /*Barra lateral no responsiva*/
 
 .nav_lat {
-    width: 100px;
+    width: 40px;
+    padding: 10px;
+    transition-duration: .5s;
 }
 
 .espacio {
@@ -39,6 +41,7 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    transition-duration: .5s;
 }
 
 .palabra {
@@ -58,8 +61,8 @@
 
 .nav_lat:hover .palabra {
     width: 70%;
-    transition-duration: .5s;
     padding-left: 10px;
+    transition-duration: .5s;
 }
 
 .nav_lat:hover .icono {
@@ -75,38 +78,21 @@
 }
 
 
-
-
-
-/*Barra lateral responsiva*/
-.despliege {
-    background-color: #E17A35;
-    color: rgb(255, 255, 255);
-    border: 0px;
-    padding: 0px;
-    width: 0px;
-    height: 50px;
-    overflow: hidden;
-    border-radius: 5px;
-    border-top-left-radius: 0px;
-}
-
-
-
-
-
 /*configuracion responsiva*/
 @media (max-width: 600px) {
     .nav_lat {
-        width: 100px;
+        width: 150px;
+    }
+    
+    .palabra {
+        width: 70%;
+        padding-left: 10px;
+    }
+    
+    .icono {
+        margin-left: 10px;
+        width:30px;
+        height:30px;
     }
 
-    .despliege {
-        width: 50px;
-        height: 55px;
-    }
-
-    .despliege:hover {
-        background-color: #333333;
-    }
 }

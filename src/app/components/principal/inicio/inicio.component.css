@@ -18,6 +18,10 @@
   grid-column: 1 / 4;
 }
 
+.eventos{
+  
+}
+
 
 /*configuracion responsiva*/
 @media (max-width: 600px) {

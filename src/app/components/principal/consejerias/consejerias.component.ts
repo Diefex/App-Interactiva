@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./consejerias.component.css']
 })
 export class ConsejeriasComponent {
-
+selected = "";
 }

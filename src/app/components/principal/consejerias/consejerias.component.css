@@ -18,19 +18,18 @@
         0px 2px 1px -1px rgb(0 0 0 / 20%),
         0px 1px 1px 0px rgb(0 0 0 / 14%),
         0px 1px 3px 0px rgb(0 0 0 / 72%);
+    margin: 30px;
 }
 
 .grid-item {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
+    width: 100%;
+    padding: 30px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.calendar {
+    width: auto;
 }
